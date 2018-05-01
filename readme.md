@@ -1,5 +1,7 @@
 The Vue WindowPlugin adds $window and $document DOM objects to each Vue component.
-This is helpful when accessing DOM from attribute templates.
+This is helpful when accessing DOM from attribute templates. allowing you
+to call DOM methods without declaring a method.
+
 
 # Usage
 ```html
