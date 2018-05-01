@@ -1,8 +1,8 @@
 {
   "name": "window-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds window and document properties to vue components",
-  "main": "src/index.js",
+  "main": "src/main/index.js",
   "scripts": {
     "test": "node src/test/test.js"
   },
