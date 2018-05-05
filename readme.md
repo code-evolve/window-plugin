@@ -2,11 +2,14 @@ The Vue WindowPlugin adds $window and $document DOM objects to each Vue componen
 This is helpful when accessing DOM from attribute templates. allowing you
 to call DOM methods without declaring a method.
 
+For example, you can open alerts, log events, or open URLs in new tabs.
+
 
 # Usage
 ```html
 <button @click='$window.alert("You clicked a button.")'>Click Me</button>
 <button @click='$window.console.log("A button was clicked.")'>Click Me</button>
+<button @click='$window.open("https://www.quickchords.org/", "_blank"))'>Click Me</button>
 <h1 :v-text='$document.title' />
 ```
 
