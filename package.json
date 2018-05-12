@@ -1,6 +1,6 @@
 {
   "name": "window-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This module adds $window and $document properties to Vue components.",
   "main": "dist/index.js",
   "scripts": {
