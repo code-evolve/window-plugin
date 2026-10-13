@@ -1,5 +1,8 @@
 # window-plugin
 
+[![npm](https://img.shields.io/npm/v/window-plugin.svg)](https://www.npmjs.com/package/window-plugin)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 The Vue WindowPlugin adds `$window` and `$document` DOM objects to each Vue 2 component.
 This is helpful when accessing the DOM from attribute templates, allowing you
 to call DOM methods without declaring a method.
@@ -40,10 +43,15 @@ None at runtime. `vue` 2.x is a peer dependency.
 
 # Development
 ```
+git clone https://github.com/code-evolve/window-plugin.git
+cd window-plugin
 npm install
 npm test
 npm run build
 ```
+
+# Issues
+Report bugs and requests at https://github.com/code-evolve/window-plugin/issues.
 
 # License
 [MIT](LICENSE)

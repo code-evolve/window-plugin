@@ -30,6 +30,14 @@
   ],
   "author": "Steven Spungin",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-evolve/window-plugin.git"
+  },
+  "homepage": "https://github.com/code-evolve/window-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/code-evolve/window-plugin/issues"
+  },
   "peerDependencies": {
     "vue": "^2.0.0"
   },
