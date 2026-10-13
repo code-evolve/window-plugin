@@ -21,6 +21,7 @@
     "prepublishOnly": "npm test"
   },
   "keywords": [
+    "code-evolve",
     "vue",
     "window",
     "document",
