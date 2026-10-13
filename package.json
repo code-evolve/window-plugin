@@ -18,8 +18,8 @@
     "log",
     "alert"
   ],
-  "author": "TwelveTone LLC",
-  "license": "ISC",
+  "author": "Steven Spungin",
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.0"
   },
