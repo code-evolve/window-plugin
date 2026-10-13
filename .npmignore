@@ -1,7 +1,0 @@
-*
-!dist
-
-*.iml
-.gradle
-.git
-*.gradle.kts
