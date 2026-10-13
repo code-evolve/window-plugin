@@ -9,6 +9,8 @@ to call DOM methods without declaring a method.
 
 For example, you can open alerts, log events, or open URLs in new tabs.
 
+Source and issues: [github.com/code-evolve/window-plugin](https://github.com/code-evolve/window-plugin)
+
 # Usage
 ```html
 <button @click='$window.alert("You clicked a button.")'>Click Me</button>
@@ -49,9 +51,6 @@ yarn install
 yarn test
 yarn build
 ```
-
-# Issues
-Report bugs and requests at https://github.com/code-evolve/window-plugin/issues.
 
 # License
 [MIT](LICENSE)
