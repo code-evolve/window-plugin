@@ -1,17 +1,22 @@
-The Vue WindowPlugin adds $window and $document DOM objects to each Vue component.
-This is helpful when accessing DOM from attribute templates. allowing you
+# window-plugin
+
+The Vue WindowPlugin adds `$window` and `$document` DOM objects to each Vue 2 component.
+This is helpful when accessing the DOM from attribute templates, allowing you
 to call DOM methods without declaring a method.
 
 For example, you can open alerts, log events, or open URLs in new tabs.
-
 
 # Usage
 ```html
 <button @click='$window.alert("You clicked a button.")'>Click Me</button>
 <button @click='$window.console.log("A button was clicked.")'>Click Me</button>
-<button @click='$window.open("https://www.quickchords.org/", "_blank"))'>Click Me</button>
-<h1 :v-text='$document.title' />
+<button @click='$window.open("https://example.com/", "_blank")'>Click Me</button>
+<h1 v-text='$document.title' />
 ```
+
+Both properties are available from the first render. Once a component is mounted
+they follow the document that owns its element, so a component rendered into an
+iframe sees that iframe's `window`. Without a DOM (server rendering) both are `undefined`.
 
 # Installation
 Install the package via NPM
@@ -31,4 +36,14 @@ new Vue({
 ```
 
 # Dependencies
-None
+None at runtime. `vue` 2.x is a peer dependency.
+
+# Development
+```
+npm install
+npm test
+npm run build
+```
+
+# License
+[MIT](LICENSE)
