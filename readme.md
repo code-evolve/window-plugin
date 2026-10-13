@@ -45,9 +45,9 @@ None at runtime. `vue` 2.x is a peer dependency.
 ```
 git clone https://github.com/code-evolve/window-plugin.git
 cd window-plugin
-npm install
-npm test
-npm run build
+yarn install
+yarn test
+yarn build
 ```
 
 # Issues
