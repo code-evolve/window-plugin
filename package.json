@@ -16,8 +16,9 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "pretest": "rollup -c",
     "test": "vitest run",
-    "prepublishOnly": "npm run build && npm test"
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "vue",
